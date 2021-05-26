@@ -1,8 +1,5 @@
 VJEŽBA: button
 
-Trajanje: 35 min (+/- 5 min)
-
-
 1. Napraviti i povezati HTML i CSS datoteke.
 
 2. U HTML dokument staviti 1 button s proizvoljnim tekstom.
