@@ -12,8 +12,8 @@ body {
 }
 button {
     font-size: 24px;
-    border-radius: 70px; /* Rounded button edges */
-    width: 140px; /* Width and height must match */
+    border-radius: 70px;
+    width: 140px; 
     height: 140px;
     cursor: pointer; 
     text-align: center;
@@ -21,7 +21,7 @@ button {
     border: 6px dotted black;
     cursor: pointer;
     transition: 
-        background-color 3s ease-in,
+        background-color 3s ease-in-out,
         transform 3s ease-in-out
 }
 button:hover {
