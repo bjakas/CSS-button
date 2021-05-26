@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: burlywood;
+}
+button {
+    font-size: 24px;
+    border-radius: 70px; /* Rounded button edges */
+    width: 140px; /* Width and height must match */
+    height: 140px;
+    cursor: pointer; 
+    text-align: center;
+    background-color: darkgreen;
+    border: 6px dotted black;
+    cursor: pointer;
+    transition: 
+        background-color 3s ease-in,
+        transform 3s ease-in-out
+}
+button:hover {
+    background-color: grey;
+    transform: rotate(2turn) scale(3);
+}
+button:focus {
+    background-color: brown;
+}
