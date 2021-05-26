@@ -13,6 +13,7 @@ body {
 button {
     font-size: 24px;
     border-radius: 70px;
+    /* width and hight must match */
     width: 140px; 
     height: 140px;
     cursor: pointer; 
